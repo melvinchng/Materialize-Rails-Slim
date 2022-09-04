@@ -5,11 +5,11 @@ The original template is written by [mkhairi](https://github.com/mkhairi/) and c
 I also rewrote his code into `html` and made some modifications. You can find it [here](https://github.com/melvinchng/materialize-rails). 
 
 ### Minimum Requirements
- * Ruby 2.4.1
- * Rails 5.1.2
+ * Ruby 2.6.10
+ * Rails 6.1.6.1
 
 ### Demo
- * [Example site](http://materialize-rails-slim.herokuapp.com)
+ * [Example site](https://safycdqjwb.us12.qoddiapp.com)
 
 ### Known Issue:
  * If you are using Windows platform, uninstall all the `bcrypt` gems and reinstall the gems manually using the following command: `gem install bcrypt --platform=ruby`.

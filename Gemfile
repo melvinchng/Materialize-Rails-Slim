@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.2'
+gem 'rails'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -59,16 +59,16 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'jquery-rails'
-gem 'high_voltage'
+gem 'high_voltage', '3.0'
 gem 'devise'
 gem 'simple_form'
 gem 'slim-rails'
 gem 'decent_exposure'
 gem 'responders'
-gem 'materialize-sass'
+gem 'materialize-sass', '~> 0.100'
 gem 'show_for'
 gem 'jquery-datatables'
 
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
-ruby '2.4.1'
+ruby '2.6.10'
